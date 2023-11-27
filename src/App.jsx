@@ -41,7 +41,8 @@ const App = () => {
 
   const explore = useRef(null);
   const connect = useRef(null);
-  const Top = useRef(null);
+  const top = useRef(null);
+  
   const scrollToSection = (elementRef) => {
     if (elementRef && elementRef.current) {
       elementRef.current.scrollIntoView({ top: elementRef.current.offsetTop, behavior: 'smooth', block: 'start',  });
